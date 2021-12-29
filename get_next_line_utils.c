@@ -3,26 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aabdelad <aabdelad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/24 14:07:37 by aabdelad          #+#    #+#             */
-/*   Updated: 2021/12/24 16:20:35 by aabdelad         ###   ########.fr       */
+/*   Updated: 2021/12/29 13:12:15 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
-char	*ft_strchr(char *s, int c)
-{
-	if (!s)
-		return (0);
-	while (*s != c && *s)
-		s++;
-	if (*s == (unsigned char)c)
-		return (s);
-	else
-		return (0);
-}
 
 size_t	ft_strlen(char *s)
 {

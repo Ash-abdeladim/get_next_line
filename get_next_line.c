@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aabdelad <aabdelad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/24 14:06:38 by aabdelad          #+#    #+#             */
-/*   Updated: 2021/12/24 16:45:19 by aabdelad         ###   ########.fr       */
+/*   Updated: 2021/12/29 13:12:13 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
+#define BUFFER_SIZE 1
 char	*ft_after(char *str)
 {
 	char	*rest;
